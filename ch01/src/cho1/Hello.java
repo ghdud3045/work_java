@@ -6,9 +6,7 @@ public class Hello {
 		// TODO Auto-generated method stub
         System.out.println("Hello, World.");
         System.out.println("æ»≥Á, ºº∞Ë.");
-        System.out.println(∫∏¿Ã∑Á, ∫∏∞‚æ≤.");"
-        
-        
+        System.out.println("æ»≥Á,∫∏∞‚æ≤.");
         
 	}
 
