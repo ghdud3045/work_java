@@ -2,18 +2,18 @@ package ch02;
 
 public class VarEx3 {
 
-	final static int MAX_SPEED = 10; // MAX_SPEED´Â »ó¼ö, 10Àº ¸®ÅÍ·²
+	final static int MAX_SPEED = 10; // MAX_SPEEDëŠ” ìƒìˆ˜, 10ì€ ë¦¬í„°ëŸ´
 	final static int WIDTH = 20;
 	final static int HEIGHT = 10;
 	
 	/*
-	 * finalÀÌºÙÀ¸¸é ¾ÕÀ¸·Î MAX_SPEED´Â
-	 * ÇÁ·Î±×·¥ÀÌ Á¾·áµÉ ¶§±îÁö 10À¸·Î °íÁ¤
+	 * finalì´ë¶™ìœ¼ë©´ ì•ìœ¼ë¡œ MAX_SPEEDëŠ”
+	 * í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œë  ë•Œê¹Œì§€ 10ìœ¼ë¡œ ê³ ì •
 	 */
 	
 	public static void main(String[] args) {
 	  //MAX_SPEED = 20;
-		System.out.println(MAX_SPEED); //»ó¼ö MAX_SPEED °ªÀ» Ãâ·Â
+		System.out.println(MAX_SPEED); //ìƒìˆ˜ MAX_SPEED ê°’ì„ ì¶œë ¥
 	    
 		int triangleArea = 10 * 2 / 2;
         System.out.println(triangleArea);

@@ -2,22 +2,22 @@ package ch02;
 
 public class SpecialCharEx {
     public static void main(String[] args) {
-    	/* Æ¯¼ö¹®ÀÚ (Escape sequence)
+    	/* íŠ¹ìˆ˜ë¬¸ì (Escape sequence)
     	 * tab : \t
     	 * backspace: \b
     	 * from feed :\f
     	 * new line : \n
     	 * carriage return :\r
-    	 * ¿ª½½·¡½¬ (\):\\
-    	 * ÀÛÀºµû¿ÈÇ¥: \'
-    	 * Å«µû¿ÈÇ¥ : \"
-    	 * À¯´ÏÄÚµå(16Áø¼ö)¹®ÀÚ://uÀ¯´ÏÄÚµå (¿¹ : char a = '/u0041')
+    	 * ì—­ìŠ¬ë˜ì‰¬ (\):\\
+    	 * ì‘ì€ë”°ì˜´í‘œ: \'
+    	 * í°ë”°ì˜´í‘œ : \"
+    	 * ìœ ë‹ˆì½”ë“œ(16ì§„ìˆ˜)ë¬¸ì://uìœ ë‹ˆì½”ë“œ (ì˜ˆ : char a = '/u0041')
     	 */
-    	System.out.println('\'');      //'''Ã³·³ ÇÒ¼ö ¾ø´Ù.
-    	System.out.println("abc\t123\b456");      // /b¿¡ ÀÇÇØ 3ÀÌ Áö¿öÁø´Ù.
-    	System.out.println('\n');                  //°³Çà new line)¹®ÀÚ Ãâ·ÂÇÏ°í °³Çà
-    	System.out.println("\"Hello\"");          //Å«µû¿ÈÇ¥¸¦ Ãâ·ÂÇÏ·Á¸é ÀÌ·¸°ÔÇÑ´Ù
-        System.out.println("c:\\");  			  //¿ª½½·¡½¬ Ãâ·Â
+    	System.out.println('\'');      //'''ì²˜ëŸ¼ í• ìˆ˜ ì—†ë‹¤.
+    	System.out.println("abc\t123\b456");      // /bì— ì˜í•´ 3ì´ ì§€ì›Œì§„ë‹¤.
+    	System.out.println('\n');                  //ê°œí–‰ new line)ë¬¸ì ì¶œë ¥í•˜ê³  ê°œí–‰
+    	System.out.println("\"Hello\"");          //í°ë”°ì˜´í‘œë¥¼ ì¶œë ¥í•˜ë ¤ë©´ ì´ë ‡ê²Œí•œë‹¤
+        System.out.println("c:\\");  			  //ì—­ìŠ¬ë˜ì‰¬ ì¶œë ¥
     }
 }
 

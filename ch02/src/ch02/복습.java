@@ -2,16 +2,16 @@ package ch02;
 
 import java.util.Scanner;
 
-public class º¹½À {
+public class ë³µìŠµ{
 
     public static void main(String[] args) {
     	Scanner scanner = new Scanner(System.in);
     	
-    	System.out.print("µÎÀÚ¸® Á¤¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇØÁÖ¼¼¿ä.>");
+    	System.out.print("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½.>");
     	String input = scanner.nextLine();
     	int num = Integer.parseInt(input);
     	
-    	System.out.println("ÀÔ·Â³»¿ë : "+ input);
+    	System.out.println("ï¿½Ô·Â³ï¿½ï¿½ï¿½ : "+ input);
     	
     	System.out.printf("num=%d%n", num);
     	System.out.printf("num=%o%n", num);
