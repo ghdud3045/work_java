@@ -37,9 +37,9 @@ public class Ch02Ex02_01 {
 
 				
 				//3. 문자열로 입력받은 성적을 정수(int)형으로 변경
-				//int kor = Integer.parseInt(strkor);
-				//int mat = Integer.parseInt(strmat);
-				//int eng = Integer.parseInt(streng);
+				//int kor = Integer.parseInt(strKor);
+				//int mat = Integer.parseInt(strMat);
+				//int eng = Integer.parseInt(strEng);
 				
 				//4. 합계와 평균을 구하기
 				//int sum = kor + mat +eng;

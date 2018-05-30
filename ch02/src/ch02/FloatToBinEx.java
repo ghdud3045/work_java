@@ -5,7 +5,7 @@ public class FloatToBinEx {
 		float f = 9.1234567f;
 		int i = Float.floatToIntBits(f);
 		
-		System.out.printf("%f%n",  f);
+		System.out.printf("%f%n", f);
 		System.out.printf("%X%n", i); // 16진수로 출력
 		System.out.printf("%d%n", i);
 	   // main의 끝

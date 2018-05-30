@@ -16,7 +16,7 @@ public class CastingEx2 {
 		System.out.println("i="+Integer.toBinaryString(i));  // 300을 2진수로 출력
 		
 		//byte형의 정수 10을 int 타입으로 변경했을  -> 정보손실 없음
-		//ㅑㅜㅅ 타입의 범위는 -20억 ~ +20억이기문에 정보손실이 없다
+		//int 타입의 범위는 -20억 ~ +20억이기문에 정보손실이 없다
 		
 		b = 10;
 		i = (int)b;

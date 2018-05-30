@@ -14,7 +14,7 @@ public class Ch02Ex02_09 {
 		// 3.실수(float)형 2개와 실수(double) 한개를 각각 float과 double형으로 변경
 		float num1 = Float.parseFloat(strNum1);
 		float num2 = Float.parseFloat(strNum2);
-		float num3 = Float.parseFloat(strNum3);
+		double num3 = Double.parseDouble(strNum3);
 		
 		// 4.위 변수들을 소수점 3? 자리까지 출력하기
 		System.out.printf("%.3f%n", num1);
