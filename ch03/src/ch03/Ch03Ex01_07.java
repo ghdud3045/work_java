@@ -2,7 +2,7 @@ package ch03;
 
 import java.util.Scanner;
 
-public class Ch03Ex001_07 {
+public class Ch03Ex01_07 {
 	public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
 
@@ -14,8 +14,8 @@ public class Ch03Ex001_07 {
 	int num1 = Integer.parseInt(input1);
 	int num2 = Integer.parseInt(input2);
 	
-	System.out.printf("%b ", num > num1, num2);
-	System.out.printf("%b ", num == num1, num2);
+	System.out.printf("%b ", num > num1 && num > num2);
+	System.out.printf("%b ", num == num1 && num == num2);
 
 	}
 }
