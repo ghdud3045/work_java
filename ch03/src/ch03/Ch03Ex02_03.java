@@ -16,7 +16,5 @@ public class Ch03Ex02_03 {
 		System.out.printf("%d %d%n", ++num, num1--);
 		System.out.printf("%d %d", num, num1);
 		
-		
-		
 	}
 }

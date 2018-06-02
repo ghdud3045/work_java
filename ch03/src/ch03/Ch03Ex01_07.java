@@ -16,6 +16,7 @@ public class Ch03Ex01_07 {
 	
 	System.out.printf("%b ", num > num1 && num > num2);
 	System.out.printf("%b ", num == num1 && num == num2);
+	
 
 	}
 }

@@ -17,6 +17,6 @@ public class Ch03Ex02_02 {
 		int length = num1*2;
 		int area = width * length;
 		System.out.printf(" width = %d%n length = %d%n area = %d", width, length, area);
-		
+
 	}
 }

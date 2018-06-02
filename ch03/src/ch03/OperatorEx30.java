@@ -57,5 +57,6 @@ public class OperatorEx30 {
 		String tmp = zero + Integer.toBinaryString(x);
 
 		return tmp.substring(tmp.length() - 32);
+		
 	}
 }
