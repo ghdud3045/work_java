@@ -11,7 +11,7 @@ public class Ch05Ex01_13 {
 		
 		// 2. 문제에서 제시한 형식대로 출력하기
 		for (int i = 0; i < result.length; i++) {
-			for (int j = 0; j < result.length; j++) {
+			for (int j = 0; j < result[i].length; j++) {
 				System.out.printf("%2d  ", result[i][j]);
 			}
 			System.out.println();

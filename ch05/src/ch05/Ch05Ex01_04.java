@@ -12,10 +12,8 @@ public class Ch05Ex01_04 {
 			Scanner scanner = new Scanner(System.in);
 			String num = scanner.nextLine();
 
-			// 4. 정수 0을 입력받으면 반복을 종료
-			if (Integer.parseInt(num)==0) {
-				break;
-			}
+
+
 			// 3. 입력받은 정수를 배열에 저장
 			numbers[i] = Integer.parseInt(num);
 
@@ -24,7 +22,7 @@ public class Ch05Ex01_04 {
 				break;
 			}
 		}
-		
+
 		// 5. 나중에 입력된 정수부터 차례대로 출력
 		for (int i = 0; i < numbers.length; i++) {
 			int tmp = numbers[i];
@@ -32,5 +30,5 @@ public class Ch05Ex01_04 {
 				System.out.print(tmp + " ");
 			}
 		}
-		}
 	}
+}
