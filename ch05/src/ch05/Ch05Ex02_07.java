@@ -8,27 +8,25 @@ public class Ch05Ex02_07 {
 		int[] stream = new int[2];
 		
 		
-		// stream 배열의 현재 인덱스 번호를 저장하는 변수
 		int i = 0;
-		
-		// 무한히 입력 받으므로 무한반복한다
+
+
 		while(true) {
-			// 숫자 하나 입력받기
+		
 			Scanner scanner = new Scanner(System.in);
 			int num = Integer.parseInt(scanner.nextLine());
 			
-			// 2.4번에 똑같은 코드이므로 생략
+			
 			if(i == stream.length) {
 				int[] tmp = new int[stream.length* 2];
 				System.arraycopy(stream ,  0 ,  tmp ,  0,	stream.length);
 				stream = tmp;
 		}
 			
-			// 입력받은 정수를 배열에 저장
+			
 			stream[i] = num;
 			
 			
-			// 만약 999일 경우 무한 반복문을 빠져나온다.
 			if(stream[i] == 999) {
 				break;
 			}

@@ -19,6 +19,6 @@ public class Ch05Ex02_05 {
 		
 		//총합은 sum 변수 값이고, 입력한 값의 개수는 배열의 크키로 알 수 있으므로
 		// 총밯벵서 배열으 크키를 나누면 평균을 구할수있다
-		System.out.printf("%1.f", sum / numbers.length);
+		System.out.printf("%.1f", sum / numbers.length);
 	}
 }
